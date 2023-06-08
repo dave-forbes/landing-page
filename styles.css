@@ -1,5 +1,6 @@
 :root {
   color: white;
+  font-family: sans-serif;
 }
 
 body {
@@ -33,6 +34,10 @@ h3 {
   color: #F9FAF8;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   background-color: #3882F6;
   color: #F9FAF8;
@@ -54,20 +59,21 @@ li {
 .hero p {
   font-size: 18px;
   color: #E5E7EB;
-  margin: 0;
+  margin: 5px 0;
 }
 
 .first-section {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  padding: 0 12vw;
+  padding: 0 11vw;
   height: 60vh;
 }
 
 .first-section header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero {
@@ -75,7 +81,7 @@ li {
   justify-content: center;
   align-items: center;
   flex: 1;
-  gap: 20px;
+  gap: 50px;
 }
 
 .hero-container {
@@ -83,9 +89,9 @@ li {
 }
 
 .image {
-  height: 250px;
-  background-color: grey;
-  flex: 1 1 0px;
+  height: 230px;
+  background-color: rgb(127, 127, 142);
+  flex: 1 1 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,13 +103,16 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
-  height: 40vh;
+  height: 50vh;
+}
+
+.second-section h2 {
+  margin: 40px 0 -10px 0;
 }
 
 .wrapper {
   display: flex;
-  margin: 40px auto;
+  margin: auto;
   gap: 60px;
 }
 
@@ -113,10 +122,12 @@ li {
   align-items: center;
   text-align: center;
   width: 150px;
+  gap: 5px;
+  color: rgb(134, 134, 134);
 }
 
 .flex-container div {
-  border: 3px solid #3882F6;
+  border: 4px solid #3882F6;
   width: 100%;
   height: 150px;
   border-radius: 15px;
@@ -128,18 +139,19 @@ li {
   justify-content: center;
   align-items: center;
   color: black;
-  height: 40vh;
+  height: 50vh;
 }
 
 .quote-container {
-  width: 50vw;
+  width: 800px;
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
-  margin: 0 0 0 25px;
+  margin: 0 0 10px 25px;
+  font-weight: 100;
 }
 
 .name {
@@ -165,6 +177,7 @@ li {
   padding: 20px 110px;
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .action-container {
@@ -172,7 +185,7 @@ li {
 }
 
 .action button {
-  border: 1px solid white;
+  border: 3px solid white;
   padding: 7px 30px;
 }
 
@@ -194,5 +207,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #1F2937;
-  padding: 20px 0;
+  padding: 40px 0;
+  font-weight: 300;
 }
